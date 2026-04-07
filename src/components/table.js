@@ -22,7 +22,7 @@ export function initTable(settings, onAction) {
     });
 
     // обработка событии и вызов onAction()
-    root.container.addEventListener('chang', () => {
+    root.container.addEventListener('change', () => {
         onAction();
     });
     root.container.addEventListener('reset', () => {
